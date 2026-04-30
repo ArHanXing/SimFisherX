@@ -7,7 +7,7 @@ import kotlin.random.Random
 class AntiAFKHandler {
 
     private var tickCounter = 0
-    private val INTERVAL = 1200 // 1分钟 = 1200 ticks（测试用）
+    private val INTERVAL = 12000 // 1分钟 = 1200 ticks
 
     private val actions = listOf<((MinecraftClient) -> Unit)>(
         { client -> ActionExecutor.moveSideways(client) },
