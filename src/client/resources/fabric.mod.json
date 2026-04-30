@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "simfishers",
+  "version": "0.0.3",
+  "name": "AutoSimFish",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.vmhxi.simfishers.SimFishers"
+    ]
+  },
+  "mixins": [
+    "mixin.simfishers.json"
+  ],
+  "depends": {}
+}
