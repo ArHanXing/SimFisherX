@@ -1,16 +1,17 @@
 {
   "schemaVersion": 1,
-  "id": "simfishers",
+  "id": "simfisherx",
   "version": "0.0.3",
-  "name": "AutoSimFish",
+  "name": "SimFishers",
   "environment": "*",
+  "description": "自动处理钓鱼qte，测试于 26/4/30？",
   "entrypoints": {
     "client": [
-      "com.vmhxi.simfishers.SimFishers"
+      "ar.hxi.simfisherx.client.SimfisherxClient"
     ]
   },
   "mixins": [
-    "mixin.simfishers.json"
+    "simfisherx.client.mixins.json"
   ],
   "depends": {}
 }

@@ -1,9 +1,10 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "ar.hxi.simfisherx.mixin.client",
+  "package": "ar.hxi.simfisherx.client.mixins",
   "compatibilityLevel": "JAVA_21",
   "client": [
+    "InGameHudAccessor"
   ],
   "injectors": {
     "defaultRequire": 1
